@@ -9,7 +9,7 @@ export default function Profile({ params }: { params: { userId: number } }) {
 
   return (
     <div className="flex flex-col gap-5 md:flex-row items-start py-10">
-      <div className="flex flex-col border-r md:w-[70%] w-full">
+      <div className="flex flex-col border-r md:w-3/4 w-full">
         <div className="profile flex flex-col gap-2  ">
           <div className="flex flex-col gap-2 items-center justify-center">
             <img
@@ -72,8 +72,8 @@ export default function Profile({ params }: { params: { userId: number } }) {
 
           <div className="">
             <iframe
-              width="450"
-              height="250"
+              width="350"
+              height="280"
               src="https://www.google.com/maps/embed/v1/MAP_MODE?key=YOUR_API_KEY&PARAMETERS"
             ></iframe>
 

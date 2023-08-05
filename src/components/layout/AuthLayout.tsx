@@ -18,7 +18,7 @@ const AuthLayout = ({
   const pathId = pathname.split("/")[1];
 
   return (
-    <div className="md:w-52 bg-gradient-to-br from-blue-500 rounded-2xl to-blue-800 md:h-[75vh] flex flex-col justify-center w-full">
+    <div className="md:w-52 bg-gradient-to-br from-blue-500 rounded-2xl to-blue-800 md:h-[80vh] flex flex-col justify-center w-full">
       <div className="flex md:flex-col flex-row gap-5 md:gap-2 px-4 py-2">
         {config.map((link) => {
           const isActive = currentPath === link.url;
